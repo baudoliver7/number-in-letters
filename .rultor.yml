@@ -5,12 +5,7 @@ assets:
 architect:
   - baudoliver7
 install: |
-  sudo apt install openjdk-8-jdk -y
-  sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
-  sudo update-alternatives --set javac /usr/lib/jvm/java-8-openjdk-amd64/bin/javac
-  sudo gem install pdd
-  sudo gem install xcop
-  pdd --file=/dev/null
+  javac -version
 release:
     script: |-
      [[ "${tag}" =~ ^[0-9]+(\.[0-9]+)*$ ]] || exit -1
