@@ -1,4 +1,4 @@
-package com.baudoliver7.impl;
+package com.baudoliver7.fr;
 
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.core.IsEqual;
@@ -165,7 +165,7 @@ public class FrIntegerInLettersTest {
 	@Test
 	public void convertsFullNumber() {
 		MatcherAssert.assertThat(
-			new FrIntegerInLetters(146987L).toString(),
+			new FrIntegerInLetters(146_987L).toString(),
 			new IsEqual<>("Cent Quarante Six Mille Neuf Cent Quatre-vingt Sept")
 		);
 	}

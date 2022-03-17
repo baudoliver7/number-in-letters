@@ -21,12 +21,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.baudoliver7.api;
 
 /**
- * Number in letters.
+ * French implementation of API.
+ *
  * @since 0.1
  */
-public interface NumberInLetters {
-
-}
+package com.baudoliver7.fr;
